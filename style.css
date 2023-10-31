@@ -1,0 +1,37 @@
+body{
+    background-color: pink;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    opacity:0.5;
+    transition: 1s ease;
+    margin: 0 5px 0 5px;
+    border-radius: 15px;
+    box-shadow: 0 0 8px;
+    }
+    
+img:hover{
+    opacity:1;
+    transition: 1s ease;
+    }
+
+h1{
+    font-size: 3em; 
+    text-shadow: 2px 5px 30px lightblue;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+.favorite{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li{
+    text-align: center;
+}
