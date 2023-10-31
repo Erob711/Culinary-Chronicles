@@ -1,37 +1,40 @@
-body{
-    background-color: pink;
+body {
+  background-color: pink;
 }
 
-img{
-    height: 300px;
-    width: 300px;
-    opacity:0.5;
-    transition: 1s ease;
-    margin: 0 5px 0 5px;
-    border-radius: 15px;
-    box-shadow: 0 0 8px;
-    }
-    
-img:hover{
-    opacity:1;
-    transition: 1s ease;
-    }
-
-h1{
-    font-size: 3em; 
-    text-shadow: 2px 5px 30px lightblue;
+img {
+  height: 300px;
+  width: 300px;
+  opacity: 0.5;
+  transition: 1s ease;
+  margin: 0 5px 0 5px;
+  border-radius: 15px;
+  box-shadow: 0 0 8px;
+  border: 7px solid;
 }
 
-h2{
-    text-decoration: underline;
+img:hover {
+  opacity: 1;
+  transition: 1s ease;
 }
 
-.favorite{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+h1 {
+  font-size: 3em;
+  text-shadow: 2px 5px 30px lightblue;
 }
 
-li{
-    text-align: center;
+h2 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.favorite {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+li {
+  text-align: center;
 }
